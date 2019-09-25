@@ -1,4 +1,4 @@
-# node.js-WordCounter （使用前请先阅读使用手册）
+# node.js-WordCounter （使用前请先下载 node.js）
 
 基于 node.js 的 wordCounter 个人项目
 
