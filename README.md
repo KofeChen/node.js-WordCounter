@@ -18,14 +18,21 @@
 例如：C:\Users\Kofe\desktop\WC
 
 **输入命令：**
+
 node wordCounter.js -l "路径" "文件名.扩展名"    -->    统计文件的行数
+
 node wordCounter.js -w "路径" "文件名.扩展名"    -->    统计文件的单词数
+
 node wordCounter.js -c "路径" "文件名.扩展名"    -->    统计文件的字符数
+
 node wordCounter.js -s "路径" "文件名.扩展名"    -->    递归遍历文件夹中符合"文件名.扩展名"的文件，并处理它们
+
 node wordCounter.js -a "路径" "文件名.扩展名"    -->    递归遍历文件夹中符合"文件名.扩展名"的代码文件，并处理它们
+
 node wordCounter.js -x -? "路径" "文件名.扩展名" -->    处理单个文件或者多个文件并通过图形界面展示
 
 如果不指明路径则默认为当前文件夹下查找符合条件的文件
+
 文件名可以为通配符 *
 
 ### 解题思路
