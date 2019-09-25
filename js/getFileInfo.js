@@ -202,7 +202,6 @@ const getFileCodes = function(filePath, matching, isShowGui) {
     if (err) { console.log(err) }
     else {
       files.forEach(function(fileName) {
-        console.log(fileName)
         var srcPath = path.join(filePath, fileName)
         fs.stat(srcPath, function(err, stats) {
           if (err) { console.log(err) }
